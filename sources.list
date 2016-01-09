@@ -1,0 +1,12 @@
+###################################################################################################
+
+deb     http://apt_sources_host/ubuntu wily          main universe
+deb-src http://apt_sources_host/ubuntu wily          main universe
+
+deb     http://apt_sources_host/ubuntu wily-updates  main universe
+deb-src http://apt_sources_host/ubuntu wily-updates  main universe
+
+deb     http://apt_sources_host/ubuntu wily-security main universe
+deb-src http://apt_sources_host/ubuntu wily-security main universe
+
+###################################################################################################
