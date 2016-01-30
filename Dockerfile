@@ -19,7 +19,7 @@ COPY sources.list /etc/apt/sources.list
 ###################################################################################################
 
 RUN mkdir -pv ${home}                                                                             \
- && useradd --home-dir ${home} ${user}                                                            \
+ && useradd -d ${home} ${user}                                                                    \
  && chown -v ${user}:${user} ${home}                                                              \
  && chmod -v 700 ${home}                                                                          \
 
