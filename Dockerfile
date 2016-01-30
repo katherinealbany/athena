@@ -30,12 +30,12 @@ RUN mkdir -pv ${home}                                                           
 
  ##################################################################################################
 
- && find /tmp                    -mindepth 1 -delete -print                                       \
- && find /var/tmp                -mindepth 1 -delete -print                                       \
- && find /var/log                -mindepth 1 -delete -print                                       \
- && find /var/cache              -mindepth 1 -delete -print                                       \
- && find /var/lib/apt            -mindepth 1 -delete -print                                       \
- && find /etc/apt/sources.list.d -mindepth 1 -delete -print
+ && find /tmp                    -mindepth 1 -print -delete                                       \
+ && find /var/tmp                -mindepth 1 -print -delete                                       \
+ && find /var/log                -mindepth 1 -print -delete                                       \
+ && find /var/cache              -mindepth 1 -print -delete                                       \
+ && find /var/lib/apt            -mindepth 1 -print -delete                                       \
+ && find /etc/apt/sources.list.d -mindepth 1 -print -delete
 
 ###################################################################################################
 
