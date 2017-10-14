@@ -1,12 +1,12 @@
 ###################################################################################################
 
-deb     http://apt_sources_host/ubuntu yakkety          main universe
-deb-src http://apt_sources_host/ubuntu yakkety          main universe
+deb     http://apt_sources_host/ubuntu apt_sources_dist          main universe
+deb-src http://apt_sources_host/ubuntu apt_sources_dist          main universe
 
-deb     http://apt_sources_host/ubuntu yakkety-updates  main universe
-deb-src http://apt_sources_host/ubuntu yakkety-updates  main universe
+deb     http://apt_sources_host/ubuntu apt_sources_dist-updates  main universe
+deb-src http://apt_sources_host/ubuntu apt_sources_dist-updates  main universe
 
-deb     http://apt_sources_host/ubuntu yakkety-security main universe
-deb-src http://apt_sources_host/ubuntu yakkety-security main universe
+deb     http://apt_sources_host/ubuntu apt_sources_dist-security main universe
+deb-src http://apt_sources_host/ubuntu apt_sources_dist-security main universe
 
 ###################################################################################################
